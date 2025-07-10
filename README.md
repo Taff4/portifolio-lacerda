@@ -1,12 +1,45 @@
-# React + Vite
+https://github.com/Taff4/seu-repositorio.git
+    ```
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd seu-repositorio
+    ```
 
-Currently, two official plugins are available:
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
 
-## Expanding the ESLint configuration
+O site estará disponível em `http://localhost:5173` (ou outra porta indicada no terminal).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estrutura de Pastas
+
+O projeto segue uma estrutura organizada para facilitar a manutenção, reutilização de componentes e escalabilidade da aplicação:
+
+- **/src**: Diretório principal da aplicação.
+  - **/assets**: Contém imagens, fontes e outros arquivos estáticos usados no projeto.
+  - **/components**: Componentes reutilizáveis do React como Navbar, Footer, etc.
+    - **/ui**: Componentes de interface genéricos, como Toast, Modal, etc.
+  - **/hooks**: Hooks personalizados utilizados em diferentes partes da aplicação (ex: `use-toast`).
+  - **/lib**: Funções utilitárias, como `cn` para manipulação de classes CSS.
+  - **/pages**: Componentes que representam as páginas do site (ex: Home, NotFound).
+  - **App.jsx**: Componente principal que controla as rotas da aplicação.
+  - **index.css**: Estilo global utilizando Tailwind CSS, incluindo variáveis e resets.
+  - **main.jsx**: Ponto de entrada da aplicação React. Renderiza o `App.jsx` dentro do DOM.
+
+
+
+
+## 📫 Contato
+
+Feito com ❤️ por Rafael Lacerda.
+
+-   **LinkedIn:** [linkedin.com/in/rafael-lacerd](https://www.linkedin.com/in/rafael-lacerd)
+-   **Email:** Lacerda_contato@outlook.com
+-   
