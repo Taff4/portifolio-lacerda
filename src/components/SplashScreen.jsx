@@ -40,7 +40,7 @@ export const SplashScreen = ({ onAnimationEnd }) => {
         fadeOut ? "opacity-0 pointer-events-none" : "opacity-100"
       )}
     >
-      {/* O StarBackground aqui NÃO anima, corrigindo o bug dos meteoros */}
+      {/* */}
       <StarBackground startAnimations={false} />
 
       {/* Conteúdo Central */}
