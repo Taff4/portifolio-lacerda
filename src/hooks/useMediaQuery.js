@@ -9,7 +9,6 @@ export const useMediaQuery = (query) => {
   const [matches, setMatches] = useState(false);
 
   useEffect(() => {
-    // Garante que o código só rode no lado do cliente
     if (typeof window === 'undefined') return;
 
     const media = window.matchMedia(query);
