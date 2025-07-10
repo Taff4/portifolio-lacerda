@@ -15,8 +15,8 @@ Você pode acessar a versão final do site hospedada na Vercel:
 
 ## ✨ Visão Geral
 
-![Demonstração do Portfólio](URL_DO_SEU_GIF_AQUI.gif)  
-*(Dica: Grave um GIF da sua tela navegando no site para mostrar as animações e substitua este link! Você pode usar ferramentas como o [ScreenToGif](https://www.screentogif.com/) para isso.)*
+![Demonstração do Portfólio](./public/pag%201.png)  
+
 
 ## 🌟 Principais Funcionalidades
 
@@ -97,9 +97,6 @@ O projeto segue uma estrutura organizada para facilitar a manutenção, reutiliz
   - **App.jsx**: Componente principal que controla as rotas da aplicação.
   - **index.css**: Estilo global utilizando Tailwind CSS, incluindo variáveis e resets.
   - **main.jsx**: Ponto de entrada da aplicação React. Renderiza o `App.jsx` dentro do DOM.
-
-
-
 
 ## 📫 Contato
 
