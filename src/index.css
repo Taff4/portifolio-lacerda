@@ -19,7 +19,7 @@
   --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
   --animate-meteor: meteor 5s linear infinite;
 
-  /* Animações da HeroSection movidas para cá */
+
   @keyframes blink {
     0%, 50%, 100% { opacity: 1; }
     25%, 75% { opacity: 0; }
@@ -36,7 +36,7 @@
 }
 
 @layer base {
-  /* ... (suas paletas de cores :root e .dark continuam as mesmas) ... */
+  
   :root {
     --background: 210 50% 97%; --foreground: 215 25% 27%; --card: 0 0% 100%; --primary: 250 65% 60%; --primary-foreground: 210 40% 98%; --border: 214 32% 90%; --star-color: 215 25% 45%;
   }
@@ -49,24 +49,24 @@
   body { @apply bg-background text-foreground transition-colors duration-300; font-feature-settings: "rlig" 1, "calt" 1; }
 }
 
-/* ... (@utility container continua o mesmo) ... */
+
 @utility container {
   margin-inline: auto; padding-inline: 2rem;
   @media (width >= 640px) { max-width: 640px; } @media (width >= 768px) { max-width: 768px; } @media (width >= 1024px) { max-width: 1024px; } @media (width >= 1280px) { max-width: 1280px; } @media (width >= 1400px) { max-width: 1400px; }
 }
 
-/* --- NOVOS UTILITÁRIOS E AJUSTES --- */
+
 @utility text-glow { @apply relative; text-shadow: 0 0 10px hsla(var(--primary), 0.4); }
 @utility card-hover { @apply transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-primary/10; }
 @utility gradient-border { @apply relative rounded-md; background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card))); background-clip: padding-box; border: 1px solid transparent; }
 @utility cosmic-button { @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_hsla(var(--primary),0.5)] hover:scale-105 active:scale-95; }
 
-/* NOVO: Botão secundário */
+
 @utility secondary-button {
   @apply px-6 py-2 rounded-full border border-primary text-primary font-medium hover:bg-primary/10 transition-colors duration-300 active:scale-95;
 }
 
-/* NOVO: Gradiente para texto */
+
 @utility text-gradient {
   @apply bg-clip-text text-transparent;
   background-image: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--primary) / 0.7));
