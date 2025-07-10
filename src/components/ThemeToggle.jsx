@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 export const ThemeToggle = () => {
-  // O estado agora é apenas para renderizar o ícone correto
+  
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Lógica de tema aprimorada
+
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
