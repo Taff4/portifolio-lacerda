@@ -6,7 +6,6 @@ import {
   Bug, Rocket, Brackets, Type, Palette, Cloud, Waypoints, Bot, Figma
 } from "lucide-react";
 
-// O array de skills com descrições permanece o mesmo
 const skills = [
   { name: "HTML/CSS", category: "frontend", icon: Code, description: "Estruturação e estilização de interfaces web com padrões modernos." },
   { name: "JavaScript", category: "frontend", icon: Brackets, description: "Desenvolvimento de funcionalidades interativas e dinâmicas para web." },
